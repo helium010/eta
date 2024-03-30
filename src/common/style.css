@@ -1,0 +1,38 @@
+.clickable:hover {
+  background-color: #80808040;
+}
+
+.clickable:active {
+  background-color: unset;
+}
+
+.draggable:hover {
+  cursor: move;
+}
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+.note-cell {
+  border: solid 1px transparent;
+}
+
+.note-cell:hover {
+  border: solid 1px #80808040;
+}
+
+.selection-box {
+  position: fixed;
+  transition-duration: 0.1s;
+  transition-timing-function: ease;
+  transition-property: left, top, height, width;
+}
+
+textarea,
+input,
+select {
+  border: none;
+  outline: none;
+}
